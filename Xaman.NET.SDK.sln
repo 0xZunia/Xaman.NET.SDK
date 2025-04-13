@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC1C50C0-4CAD-4963-B911-F81DF8908F2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C7990324-0A8D-41F0-9DB5-9248D0759037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xaman.NET.SDK", "Xaman.NET.SDK\Xaman.NET.SDK.csproj", "{2968749D-3FEC-4DDD-9965-0A09BCE62A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xaman.NET.SDK.Abstractions", "Xaman.NET.SDK.Abstractions\Xaman.NET.SDK.Abstractions.csproj", "{5777FA60-5CEE-47B1-9A1F-AC42FA4A7029}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2968749D-3FEC-4DDD-9965-0A09BCE62A52} = {CC1C50C0-4CAD-4963-B911-F81DF8908F2A}
+		{5777FA60-5CEE-47B1-9A1F-AC42FA4A7029} = {CC1C50C0-4CAD-4963-B911-F81DF8908F2A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2968749D-3FEC-4DDD-9965-0A09BCE62A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2968749D-3FEC-4DDD-9965-0A09BCE62A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2968749D-3FEC-4DDD-9965-0A09BCE62A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2968749D-3FEC-4DDD-9965-0A09BCE62A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5777FA60-5CEE-47B1-9A1F-AC42FA4A7029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5777FA60-5CEE-47B1-9A1F-AC42FA4A7029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5777FA60-5CEE-47B1-9A1F-AC42FA4A7029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5777FA60-5CEE-47B1-9A1F-AC42FA4A7029}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
